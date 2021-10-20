@@ -22,6 +22,7 @@
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
+
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
@@ -33,18 +34,15 @@ h1, h2, h3 {
 
  }
 
-.navbar-default .navbar-brand ,.navbar-default .navbar-nav > li > a { 
+.navbar-default .navbar-brand ,
+.navbar-default .navbar-nav > li > a { 
   // Change default navBar text color to white
   color: white;
-
-}
-
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
-  // Change default navBar hover text color to white
-
-  color: white;
-  opacity: 0.75;
+  
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
 }
 
 .navbar{
