@@ -33,10 +33,18 @@ h1, h2, h3 {
 
  }
 
-a.navbar-brand { /*CHANGE TO WHITE*/
-  color:white;
-  
-  
+.navbar-default .navbar-brand ,.navbar-default .navbar-nav > li > a { 
+  // Change default navBar text color to white
+  color: white;
+
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
+  // Change default navBar hover text color to white
+
+  color: white;
+  opacity: 0.75;
 }
 
 .navbar{
